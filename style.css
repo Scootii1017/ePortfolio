@@ -149,29 +149,29 @@ font-size: 14px;
 
 
 
-/* About Page */
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    text-align: center;
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
 }
 
+.about {
+padding: 20px;
+text-align: center;
+}
 
-
-/* Mobile Responsive */
 @media screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
+nav ul {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
 
-    .about {
-        padding: 10px;
-    }
+.about {
+padding: 10px;
+}
 
-    .profile-img {
-        width: 80%;
-    }
+.profile-img {
+width: 80%;
+}
 }
